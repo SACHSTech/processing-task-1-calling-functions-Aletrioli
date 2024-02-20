@@ -4,24 +4,18 @@ public class Sketch extends PApplet {
 	
 	
   /**
-   * Called once at the beginning of execution, put your size all in this method
+   * This program will draw a house
+   * @author T. Martins
    */
+
   public void settings() {
-	// put your size call here
     size(400, 400);
   }
 
-  /** 
-   * Called once at the beginning of execution.  Add initial set up
-   * values here i.e background, stroke, fill etc.
-   */
   public void setup() {
     background(127, 204, 240);
   }
 
-  /**
-   * Called repeatedly, anything drawn to the screen goes here
-   */
   public void draw() {
     // hill
     fill(133, 214, 133);
@@ -56,5 +50,5 @@ public class Sketch extends PApplet {
     ellipse(325, 75, 100, 100);
   
   } 
-  
+
 }
